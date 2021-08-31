@@ -1,11 +1,12 @@
 // Multiple Section Universal
 #articles .container,
+#product .container,
 #portfolio .container,
 #journey .container,
-header .container,
-#interests .container {
+header .container {
     border-bottom: rgb(194, 194, 194) 1px solid;
 }
+
 
 #interests h2,
 #articles h2,
@@ -18,7 +19,6 @@ header .container,
     font-weight: normal;
 }
 
-
 #portfolio .products .boundry p,
 #articles p,
 #journey p,
@@ -28,8 +28,6 @@ header article p {
     font-weight: 400;
     line-height: 30px;
 }
-
-
 
 // Header
 header {
@@ -151,7 +149,7 @@ header {
             position: absolute;
             z-index: 5;
             background-color: #fff;
-            width: 120px;
+            width: 175px;
             padding: 5px;
             visibility: hidden;
             opacity: 0;
@@ -190,8 +188,8 @@ header {
 
 #portfolio .products {
     img {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
         margin-right: 8px;
         display: inline-block;
         vertical-align: middle;
@@ -270,7 +268,7 @@ header {
         width: 100%;
         height: 150px;
         border-radius: 3px;
-        margin-bottom: 5px;
+        margin-bottom: 25px;
     }
 
     h4 {
@@ -291,29 +289,18 @@ header {
 }
 
 
-// My Interests
-#interests {
-    img {
-        width: calc(97.9% / 7);
-        height: 120px;
-        object-fit: cover;
-        object-position: center;
-        margin: 1px;
-        cursor: pointer;
-    }
-
-    div.imgArea {
-        margin: 0 20px;
-    }
-    
-}
-
-
 // My Product
 section#product {
     text-align: center;
+    margin-bottom: 1px;
     h2 {
+        margin-top: 40px;
         margin-bottom: 20px;
+    }
+
+    img.lastImg {
+        width: 100px;
+        margin-bottom: -50px;
     }
 
     p.headText {
@@ -323,8 +310,8 @@ section#product {
     }
     aside {
         img {
-            width: 35px;
-            margin-bottom: 15px;
+            width: 150px;
+            margin-bottom: 20px;
         }
 
         h3 {
