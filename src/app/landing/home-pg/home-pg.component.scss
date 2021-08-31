@@ -34,7 +34,10 @@ header article p {
 // Header
 header {
     article {
-        width: 700px;
+
+        img {
+            height: 200px;
+        }
 
         h1 {
             color: #000;
@@ -47,12 +50,19 @@ header {
                 color: rgb(114, 114, 114);
                 font-size: 16px;
                 font-weight: 400;
+                width: 700px;
                 text-transform: uppercase;
             }
 
             strong {
                 font-weight: 700;
             }
+
+            
+            p {
+                width: 700;
+            }
+
         }
     }
 
@@ -116,6 +126,7 @@ header {
     li {
         list-style: none;
         position: relative;
+        margin: auto;
         a {
             font-size: 16px;
             font-weight: normal;
