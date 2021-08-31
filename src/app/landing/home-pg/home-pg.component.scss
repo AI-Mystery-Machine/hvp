@@ -4,7 +4,7 @@
 #portfolio .container,
 #journey .container,
 header .container {
-    border-bottom: rgb(194, 194, 194) 1px solid;
+    border-bottom: #eadede 1.5px solid;
 }
 
 
@@ -174,8 +174,8 @@ header {
         ul {
             visibility: visible;
             opacity: 1;
-            -webkit-box-shadow: 0 3px 5px 0 #C9C9C9;
-            box-shadow: 0 3px 5px 0 #C9C9C9;
+            -webkit-box-shadow: 0 3px 5px 0 #eadede;
+            box-shadow: 0 3px 5px 0 #eadede;
 
             li {
                 a:hover {
@@ -196,7 +196,7 @@ header {
     }
 
     .pInside {
-        border: rgb(206, 206, 206) 1px solid;
+        border: #eadede 1.5px solid;
         border-radius: 5px;
         margin: 15px 0;
         cursor: pointer;
@@ -223,8 +223,8 @@ header {
     }
 
     .col-4:hover .boundry {
-        -webkit-box-shadow: 0 0 10px 3px #CFCFCF;
-        box-shadow: 0 0 10px 3px #CFCFCF;
+        -webkit-box-shadow: 0 0 10px 3px #eadede;
+        box-shadow: 0 0 10px 3px #eadede;
     }
 }
 
