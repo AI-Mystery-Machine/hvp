@@ -4,7 +4,7 @@
 #portfolio .container,
 #journey .container,
 header .container {
-    border-bottom: #eadede 1.5px solid;
+    border-bottom: #c0ccd9 1.5px solid;
 }
 
 
@@ -19,15 +19,22 @@ header .container {
     font-weight: normal;
 }
 
+header article p {
+    color:#000 ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 #portfolio .products .boundry p,
 #articles p,
-#journey p,
-header article p {
+#journey p {
     color: rgb(114, 114, 114);
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
 }
+
 
 // Header
 header {
@@ -117,8 +124,6 @@ header {
     }
 }
 
-
-
 // Portfolio
 #portfolio ul {
     li {
@@ -128,7 +133,7 @@ header {
         a {
             font-size: 16px;
             font-weight: normal;
-            color: rgb(70, 70, 70);
+            color: rgb(70, 70, 70) ;
             margin-right: 20px;
             text-decoration: none;
             cursor: pointer;
@@ -174,8 +179,8 @@ header {
         ul {
             visibility: visible;
             opacity: 1;
-            -webkit-box-shadow: 0 3px 5px 0 #eadede;
-            box-shadow: 0 3px 5px 0 #eadede;
+            -webkit-box-shadow: 0 3px 5px 0  #c0ccd9;
+            box-shadow: 0 3px 5px 0  #c0ccd9;
 
             li {
                 a:hover {
@@ -196,7 +201,7 @@ header {
     }
 
     .pInside {
-        border: #eadede 1.5px solid;
+        border: #c0ccd9 1.5px solid;
         border-radius: 5px;
         margin: 15px 0;
         cursor: pointer;
@@ -223,8 +228,8 @@ header {
     }
 
     .col-4:hover .boundry {
-        -webkit-box-shadow: 0 0 10px 3px #eadede;
-        box-shadow: 0 0 10px 3px #eadede;
+        -webkit-box-shadow: 0 0 10px 3px #c0ccd9;
+        box-shadow: 0 0 10px 3px #c0ccd9;
     }
 }
 
